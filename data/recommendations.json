@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rec-excalidraw",
+    "title": "Excalidraw",
+    "category": "图示表达",
+    "url": "https://excalidraw.com/",
+    "reason": "适合快速画流程图、架构图和课程笔记，风格轻但表达清楚。",
+    "tags": [
+      "画图",
+      "白板"
+    ],
+    "order": 1
+  },
+  {
+    "id": "rec-carbon",
+    "title": "Carbon",
+    "category": "代码展示",
+    "url": "https://carbon.now.sh/",
+    "reason": "把代码片段生成适合博客、封面和分享的图片。",
+    "tags": [
+      "代码",
+      "展示"
+    ],
+    "order": 2
+  },
+  {
+    "id": "rec-jsoncrack",
+    "title": "JSON Crack",
+    "category": "数据查看",
+    "url": "https://jsoncrack.com/",
+    "reason": "查看复杂 JSON 结构时很直观，适合调接口和整理数据。",
+    "tags": [
+      "JSON",
+      "开发"
+    ],
+    "order": 3
+  }
+]

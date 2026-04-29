@@ -1,0 +1,42 @@
+[
+  {
+    "id": "blog-recommender-anime",
+    "slug": "anime-recommender-notes",
+    "title": "当推荐系统遇见番剧评分：一次轻量实践",
+    "source": "站内",
+    "date": "2026-02-09",
+    "tags": [
+      "推荐系统",
+      "数据分析",
+      "ACGN"
+    ],
+    "excerpt": "用一个小型评分数据集演示从清洗、特征构造到推荐结果解释的完整流程。",
+    "content": "## 为什么做这个实验\n\n推荐系统不是只有大型平台才值得研究。用小数据也可以练习数据清洗、相似度计算、召回排序和结果解释。\n\n## 轻量流程\n\n1. 整理番剧基础信息和用户评分。\n2. 用标签、年份、评分区间构造特征。\n3. 先做内容相似，再叠加协同过滤结果。\n4. 输出推荐理由，而不是只给一个分数。\n\n## 后续计划\n\n我会把这个实验做成站内在线工具，支持导入自己的收藏列表并生成推荐。"
+  },
+  {
+    "id": "blog-github-profile",
+    "slug": "github-profile",
+    "title": "GitHub 项目与代码记录",
+    "source": "GitHub",
+    "date": "2026-02-08",
+    "tags": [
+      "GitHub",
+      "项目"
+    ],
+    "excerpt": "外部平台文章或项目可以直接显示在博客区，不需要把正文搬回本站。",
+    "url": "https://github.com/TaotaoByte"
+  },
+  {
+    "id": "blog-bilibili-space",
+    "slug": "bilibili-space",
+    "title": "B 站动态与视频内容",
+    "source": "Bilibili",
+    "date": "2026-02-07",
+    "tags": [
+      "视频",
+      "生活记录"
+    ],
+    "excerpt": "适合放视频教程、项目演示、学习记录和生活向内容。",
+    "url": "https://space.bilibili.com/516531193?spm_id_from=333.1007.0.0"
+  }
+]

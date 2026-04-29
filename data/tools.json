@@ -1,0 +1,44 @@
+[
+  {
+    "id": "bookmark-vault",
+    "slug": "bookmark-vault",
+    "name": "轻量链接收藏夹",
+    "category": "站内工具",
+    "description": "一个示例自制工具，使用本站工具数据接口保存链接、分类和备注。",
+    "url": "/tools/bookmark-vault.html",
+    "repo": "",
+    "icon": "bookmark",
+    "status": "可用",
+    "publicData": true,
+    "maxRecords": 200,
+    "order": 1
+  },
+  {
+    "id": "json-formatter",
+    "slug": "json-formatter",
+    "name": "JSON 格式化器",
+    "category": "开发效率",
+    "description": "预留站内工具位，后续可以接入本地格式化、校验和字段搜索能力。",
+    "url": "",
+    "repo": "",
+    "icon": "braces",
+    "status": "预留",
+    "publicData": false,
+    "maxRecords": 50,
+    "order": 2
+  },
+  {
+    "id": "reading-board",
+    "slug": "reading-board",
+    "name": "文章阅读看板",
+    "category": "内容管理",
+    "description": "用于汇总 CSDN、知乎、B 站、GitHub 等平台的文章和项目链接。",
+    "url": "",
+    "repo": "",
+    "icon": "newspaper",
+    "status": "预留",
+    "publicData": false,
+    "maxRecords": 100,
+    "order": 3
+  }
+]

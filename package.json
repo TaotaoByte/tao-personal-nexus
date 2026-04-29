@@ -1,0 +1,20 @@
+{
+  "name": "lite-personal-site",
+  "version": "1.0.0",
+  "description": "极简轻量前后端个人官网，原生 Node.js + HTML + Tailwind CSS + JSON 存储。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "personal-site",
+    "nodejs",
+    "tailwind",
+    "json-storage"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

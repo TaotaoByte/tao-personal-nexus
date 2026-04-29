@@ -1,0 +1,16 @@
+{
+  "bookmark-vault": [
+    {
+      "id": "record-demo-link",
+      "toolId": "bookmark-vault",
+      "payload": {
+        "title": "Tao 的 GitHub",
+        "url": "https://github.com/TaotaoByte",
+        "category": "项目",
+        "note": "站点项目和后续工具代码可以统一放这里。"
+      },
+      "createdAt": "2026-02-09T00:00:00.000Z",
+      "updatedAt": "2026-02-09T00:00:00.000Z"
+    }
+  ]
+}

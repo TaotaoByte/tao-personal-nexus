@@ -1,0 +1,61 @@
+{
+  "brand": "Tao",
+  "title": "Tao 的个人官网",
+  "subtitle": "数据科学探索者 / 轻量工具制造者 / ACGN 同好",
+  "intro": "用数据理解世界，用代码整理日常。这里会沉淀我的项目、文章、工具站和长期收藏。",
+  "avatarUrl": "https://github.com/TaotaoByte.png",
+  "location": "China",
+  "heroBadges": [
+    "Python",
+    "数据分析",
+    "机器学习",
+    "Web 工具",
+    "ACGN"
+  ],
+  "about": {
+    "headline": "你好，我是 Tao",
+    "paragraphs": [
+      "我关注数据科学、机器学习、健康数据分析和轻量 Web 工具。比起复杂的大系统，我更喜欢能快速解决真实问题、后期也容易维护的小而稳的方案。",
+      "这个站点会作为我的公开资料库：博客可以在线更新，项目可以链接 GitHub，工具区可以逐步接入自制在线工具。视觉上保留一点轻量二次元气质，但核心仍然是清晰、快速、好改。"
+    ],
+    "stats": [
+      {
+        "label": "内容方向",
+        "value": "Data + Web"
+      },
+      {
+        "label": "站点架构",
+        "value": "Node + JSON"
+      },
+      {
+        "label": "维护方式",
+        "value": "后台更新"
+      }
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "机器学习",
+      "数据可视化",
+      "轻量工具开发"
+    ]
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/TaotaoByte",
+      "icon": "github"
+    },
+    {
+      "label": "Bilibili",
+      "url": "https://space.bilibili.com/516531193?spm_id_from=333.1007.0.0",
+      "icon": "square-play"
+    }
+  ],
+  "contact": {
+    "email": "your-email@example.com",
+    "headline": "保持联系",
+    "description": "项目合作、文章交流、工具建议都可以从这里发来。"
+  }
+}

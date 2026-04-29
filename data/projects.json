@@ -1,0 +1,44 @@
+[
+  {
+    "id": "project-health-risk",
+    "title": "全球健康风险因素分析",
+    "summary": "面向多源公共数据的疾病负担归因分析模板，包含数据清洗、指标解释和结果可视化。",
+    "status": "整理中",
+    "tags": [
+      "公共健康",
+      "数据分析",
+      "可视化"
+    ],
+    "repo": "https://github.com/TaotaoByte",
+    "demo": "",
+    "order": 1
+  },
+  {
+    "id": "project-lite-tools",
+    "title": "个人轻量工具集",
+    "summary": "把常用的小工具沉淀到个人站内，优先保证加载快、可维护、数据能独立更新。",
+    "status": "持续开发",
+    "tags": [
+      "Web",
+      "Node.js",
+      "工具站"
+    ],
+    "repo": "https://github.com/TaotaoByte",
+    "demo": "/tools/bookmark-vault.html",
+    "order": 2
+  },
+  {
+    "id": "project-anime-nlp",
+    "title": "ACGN 文本情感分析实验",
+    "summary": "围绕角色台词、评论文本和弹幕语料做情感趋势、关键词和主题聚类探索。",
+    "status": "计划中",
+    "tags": [
+      "NLP",
+      "文本分析",
+      "ACGN"
+    ],
+    "repo": "https://github.com/TaotaoByte",
+    "demo": "",
+    "order": 3
+  }
+]

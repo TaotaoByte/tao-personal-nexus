@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tao 的个人网站：介绍、文章、项目、工具与收藏。">
+    <title>Tao - Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/site.js"></script>
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="#home" aria-label="回到首页">
+        <span class="brand-mark">T</span>
+        <span data-brand>Tao</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#blog">博客</a>
+        <a href="#projects">项目</a>
+        <a href="#tools">工具</a>
+        <a href="#recommend">推荐</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="切换主题">☾</button>
+        <button class="icon-btn mobile-only" id="menuToggle" type="button" aria-label="打开菜单">☰</button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="移动导航">
+      <a href="#about">关于</a>
+      <a href="#blog">博客</a>
+      <a href="#projects">项目</a>
+      <a href="#tools">工具</a>
+      <a href="#recommend">推荐</a>
+      <a href="#contact">联系</a>
+    </nav>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">PERSONAL SITE / DATA / TOOLS</p>
+          <h1>
+            <span data-brand>Tao</span>
+            <span>把想法做成</span>
+            <span class="accent-text">可用的东西</span>
+          </h1>
+          <p class="hero-lead" id="heroSubtitle">数据科学探索者 / 轻量工具制造者 / ACGN 同好</p>
+          <p class="hero-desc" id="heroIntro">用数据理解世界，用代码整理日常。</p>
+          <div class="hero-tags" id="heroBadges"></div>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">看项目</a>
+            <a class="btn" href="#blog">读文章</a>
+          </div>
+        </div>
+
+        <aside class="profile-board reveal" aria-label="个人资料卡">
+          <div class="board-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="portrait">
+            <img id="avatarImage" src="https://github.com/TaotaoByte.png" alt="Tao 的头像">
+          </div>
+          <div class="board-info">
+            <p class="board-label">CURRENT MODE</p>
+            <h2>Build quietly.<br>Ship clearly.</h2>
+          </div>
+          <div class="board-metrics" id="heroMetrics"></div>
+        </aside>
+      </section>
+
+      <section class="section about-layout" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT</p>
+          <h2 id="aboutHeadline">你好，我是 Tao</h2>
+        </div>
+        <div class="about-content reveal">
+          <div id="aboutParagraphs" class="rich-text"></div>
+          <div id="skillList" class="chip-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="blog">
+        <div class="section-heading reveal">
+          <p class="eyebrow">BLOG</p>
+          <h2>最近写了什么</h2>
+        </div>
+        <div class="feature-grid" id="blogList"></div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>正在整理的项目</h2>
+        </div>
+        <div class="card-grid" id="projectList"></div>
+      </section>
+
+      <section class="section split-section" id="tools">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TOOLS</p>
+          <h2>工具站合集</h2>
+          <p>站内工具会逐步补齐，先保证入口清楚、数据可维护。</p>
+        </div>
+        <div class="card-grid compact" id="toolList"></div>
+      </section>
+
+      <section class="section" id="recommend">
+        <div class="section-heading reveal">
+          <p class="eyebrow">RECOMMEND</p>
+          <h2>值得收藏的工具</h2>
+        </div>
+        <div class="recommend-list" id="recommendationList"></div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2 id="contactHeadline">保持联系</h2>
+          <p id="contactDescription"></p>
+          <div class="social-links" id="socialLinks"></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label>
+            <span>姓名</span>
+            <input name="name" required autocomplete="name">
+          </label>
+          <label>
+            <span>邮箱</span>
+            <input name="email" type="email" required autocomplete="email">
+          </label>
+          <label>
+            <span>消息</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">发送消息</button>
+          <p class="form-status" id="contactStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> <span data-brand>Tao</span>. Built for clarity.</p>
+      <a href="admin.html">内容后台</a>
+    </footer>
+
+    <dialog class="article-dialog" id="articleDialog">
+      <div class="dialog-head">
+        <div>
+          <p id="articleMeta"></p>
+          <h3 id="articleTitle"></h3>
+        </div>
+        <button class="icon-btn" id="articleClose" type="button" aria-label="关闭">×</button>
+      </div>
+      <article class="article-body" id="articleBody"></article>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>轻量链接收藏夹</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../js/bookmark-vault.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/#tools">
+        <span class="brand-mark">T</span>
+        <span>链接收藏夹</span>
+      </a>
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="切换主题">☾</button>
+    </header>
+
+    <main class="section tool-page">
+      <section class="section-heading reveal visible">
+        <p class="eyebrow">BOOKMARK VAULT</p>
+        <h2>保存常用链接</h2>
+        <p>这是一个站内工具示例，数据写入后端 JSON，后续工具可以沿用这套接口。</p>
+      </section>
+
+      <div class="tool-layout">
+        <form class="contact-form" id="bookmarkForm">
+          <label>
+            <span>标题</span>
+            <input name="title" required>
+          </label>
+          <label>
+            <span>链接</span>
+            <input name="url" type="url" required>
+          </label>
+          <label>
+            <span>分类</span>
+            <input name="category" value="收藏" required>
+          </label>
+          <label>
+            <span>备注</span>
+            <textarea name="note" rows="5"></textarea>
+          </label>
+          <button class="btn primary" type="submit">添加链接</button>
+          <p class="form-status" id="toolStatus"></p>
+        </form>
+
+        <section>
+          <div class="search-bar">
+            <input id="searchInput" placeholder="搜索标题、分类或备注">
+            <button id="reloadButton" class="btn" type="button">刷新</button>
+          </div>
+          <div class="card-grid compact" id="bookmarkList"></div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
